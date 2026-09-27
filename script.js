@@ -42,6 +42,7 @@ Submit.addEventListener("click", function() {
 let Delete = document.querySelector("#ClearBtn");
 
 Delete.addEventListener("click", function() {
-  list.innerHTML = "";
+  taskList = [];
+  renderTasks();
 });
 
